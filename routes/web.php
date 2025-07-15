@@ -12,7 +12,7 @@ Route::get('/info', function () {
     return phpinfo();
 });
 
-Route::get('/health', function () {
+Route::get('/healthy', function () {
     $status = [];
 
     // Check Database Connection
@@ -63,3 +63,4 @@ Route::get('/health', function () {
 
     return response()->json($status, $httpStatus);
 });
+
