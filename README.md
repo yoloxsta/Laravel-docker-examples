@@ -7,4 +7,8 @@ docker compose -f compose.prod.yaml exec php-fpm php artisan key:generate
 
 docker exec -it laravel-docker-examples-php-cli-1 php artisan route:
 
+$ git fetch origin
+
+$ git reset --hard origin/main
+
 ```
