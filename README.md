@@ -11,4 +11,6 @@ $ git fetch origin
 
 $ git reset --hard origin/main
 
+➜ docker inspect containerid | grep -i com.docker.compose.project
+
 ```
