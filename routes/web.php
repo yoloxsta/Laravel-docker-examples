@@ -12,7 +12,7 @@ Route::get('/info', function () {
     return phpinfo();
 });
 
-//health check route
+//health check route <=
 Route::get('/healthy', function () {
     $status = [];
 
