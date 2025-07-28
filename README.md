@@ -14,5 +14,4 @@ $ git reset --hard origin/main
 ➜ docker inspect containerid | grep -i com.docker.compose.project (checking which file used)
 
 docker image inspect Image --format '{{.Architecture}}' (check image archi)
-
 ```
