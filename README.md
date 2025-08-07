@@ -15,3 +15,4 @@ $ git reset --hard origin/main
 
 docker image inspect Image --format '{{.Architecture}}' (check image archi)
 ```
+#
